@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Syne:wght@400..800&display=swap');
+
+#brand {
+    width: 48px !important;
+    height: 48px !important;
+    img {
+        width: 100%;
+    }
+}
+
+#logo , .accordion-button{
+    font-weight: 700;
+    white-space: normal;
+    vertical-align: -4px;
+    color: inherit;
+    text-decoration: none;
+    line-height: inherit !important;
+    font-family: "Syne", sans-serif;
+    font-size: 1.0525rem;
+}
+
+.fgrow {
+    flex-grow: 0 !important;
+}
+
+#navbarNavAltMarkup {
+    justify-content: flex-end;
+    margin-right: 0 !important;
+}
+.w-24 {
+    width: 40px !important;
+    height: 40px !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+.car-bg {
+    background: url("./svg/output-onlinepngtools.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    }
+#carouselExampleCaptions {
+    height: 100vh;
+}
+.w-5{
+    width: 5% !important;
+}
+.qara,.rounded-0{
+    color: black;
+    p{
+        font-style: italic;
+        font-family: 'EB Garamond', serif;
+        color: gray;
+    }
+}
+
+@media (min-width:576px) {
+    .qara{
+        width: 50% !important;
+    }
+    .fwrap{
+        gap:20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+}
+
+@media (min-width:992px) {
+    .fwrap{
+        .kart{
+            width: 48% !important;
+        }
+    }
+}
+@media (min-width:992px) {
+    .fwrap{
+        .kart{
+            width: 32% !important;
+        }
+    }
+    .accol{
+        width: 50% !important;
+    } 
+}
